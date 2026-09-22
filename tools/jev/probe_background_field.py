@@ -23,8 +23,8 @@ import time
 import urllib.error
 import urllib.request
 
-URL = "https://openrouter.ai/api/alpha/decisions"
-MODEL = "typesafe/jev-1.13"
+URL = "https://openrouter.ai/api/v1/chat/completions"
+MODEL = "nvidia/nemotron-3-ultra-550b-a55b:free"
 
 BACKGROUND_NOTE = " Facts given in background are provided context, not off-topic."
 
